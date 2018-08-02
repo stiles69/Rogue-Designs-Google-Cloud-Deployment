@@ -11,4 +11,3 @@ func init() {
 func static(w http.ResponseWriter, r *http.Request) {
 	http.ServeFile(w, r, "files/"+r.URL.Path)
 }
-
